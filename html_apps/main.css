@@ -1,0 +1,22 @@
+.show_title::after{
+/*
+  content : " App";
+*/
+}
+.show_title{
+  text-decoration: underline double;
+}
+main{
+  text-align: center;
+}
+#div_question{
+  font-size: xx-large;
+}
+.button_ans{
+  color: green;
+  font-size: 72pt;
+  width: 100pt;
+}
+#old_problems{
+  font-size: x-large;
+}
