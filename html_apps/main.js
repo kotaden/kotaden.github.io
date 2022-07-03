@@ -17,7 +17,7 @@ function sample() {
 
 function new_problem(){
   var a = Math.floor(Math.random() * 10);
-  var max_b = 10 - a;
+  var max_b = 10 - a + 0.5;
   var b = Math.floor(Math.random() * max_b);
   text_problem = a + " + " + b + " = ";
   var ans = a + b;
